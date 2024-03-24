@@ -4,12 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { AppBar } from './layout/AppBar/AppBar'
 import {HomePage} from './pages/HomePage'
+import { Banner } from './layout/Banner'
 
 function App() {
 
   return (
     <>
-      <AppBar />  
+      <AppBar />
+      <Banner />  
       <HomePage />
 
     </>

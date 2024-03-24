@@ -6,7 +6,7 @@ import { ScrollButton } from "../../components/ScrollButton";
 
 export function AppBar() {
   return (
-    <header className="flex justify-between text-cor-principal bg-white shadow-custom font-roboto">
+    <header className="relative z-10 flex justify-between text-cor-principal bg-white font-roboto shadow-custom">
       <ActionsDiv />
       <LogosDiv />
     </header>
