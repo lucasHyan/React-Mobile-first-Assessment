@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        "cor-principal": "#FF9966",
+        "main-color": "#FF9966",
       },
       boxShadow: {
         custom:
