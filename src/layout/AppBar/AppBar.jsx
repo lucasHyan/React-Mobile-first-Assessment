@@ -31,7 +31,7 @@ function LogosDiv() {
 }
 function ActionsDiv() {
   return (
-    <div className="text-cor-principal flex items-center p-3 space-x-3">
+    <div className="text-cor-principal flex items-center p-3 space-x-8">
       <IconButton>
         <div className="flex items-center space-x-3">
           <WebSiteLogo />
