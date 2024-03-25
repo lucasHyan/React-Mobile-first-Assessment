@@ -5,7 +5,7 @@ import './App.css'
 import { AppBar } from './layout/AppBar/AppBar'
 import {HomePage} from './pages/HomePage'
 import { Banner } from './layout/Banner'
-
+import { ContentCards } from './layout/ContentCards'
 function App() {
 
   return (
@@ -13,6 +13,7 @@ function App() {
       <AppBar />
       <Banner />  
       <HomePage />
+      <ContentCards />
 
     </>
   )
