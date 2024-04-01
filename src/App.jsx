@@ -6,6 +6,7 @@ import { AppBar } from './layout/AppBar/AppBar'
 import {HomePage} from './pages/HomePage'
 import { Banner } from './layout/Banner'
 import { ContentCards } from './layout/ContentCards'
+import AboutText from './components/AboutText'
 function App() {
 
   return (
