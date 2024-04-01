@@ -1,23 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { AppBar } from './layout/AppBar/AppBar'
-import {HomePage} from './pages/HomePage'
-import { Banner } from './layout/Banner'
-import { ContentCards } from './layout/ContentCards'
-import AboutText from './components/AboutText'
+import "./App.css";
+import { AppBar } from "./layout/AppBar/AppBar";
+import { HomePage } from "./pages/HomePage";
+import { Banner } from "./layout/Banner";
+import { ContentCards } from "./layout/ContentCards";
+import { SiteDescription } from "./layout/SiteDescription";
 function App() {
-
   return (
     <>
       <AppBar />
-      <Banner />  
+      <Banner />
       <HomePage />
       <ContentCards />
-
+      <SiteDescription />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
