@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "main-color": "#FF9966",
+        "dark-color": "#CC7A52", 
       },
       boxShadow: {
         custom:
