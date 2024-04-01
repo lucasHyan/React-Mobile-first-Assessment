@@ -4,6 +4,7 @@ import { HomePage } from "./pages/HomePage";
 import { Banner } from "./layout/Banner";
 import { ContentCards } from "./layout/ContentCards";
 import { SiteDescription } from "./layout/SiteDescription";
+import { Footer } from "./layout/Footer";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <HomePage />
       <ContentCards />
       <SiteDescription />
+      <Footer />
     </>
   );
 }
