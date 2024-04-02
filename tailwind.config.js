@@ -14,6 +14,10 @@ export default {
       fontFamily: {
         'roboto': ['Roboto', 'Helvetica', 'Arial', 'sans-serif'],
       },
+      screens: {
+        'Medium-At': '961px',
+        'Small-At': '601px',
+      },
     },
   },
 };
